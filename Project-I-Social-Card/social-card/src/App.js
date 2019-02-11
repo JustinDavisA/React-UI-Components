@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
+import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Social Card!</h3>
+      <HeaderTitle />
       <HeaderContent />
       <p>
         <strong>
