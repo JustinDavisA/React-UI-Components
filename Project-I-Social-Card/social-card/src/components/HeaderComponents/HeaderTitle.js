@@ -3,7 +3,11 @@ import './Header.css';
 
 function HeaderTitle() {
     return (
-        <h3>Welcome to React Social Card!</h3>
+        <div>
+            <h3>Lambda School</h3>
+            <h3>@LambdaSchool</h3>
+            <h3>26 Jan</h3>
+        </div>
     );
 }
 
