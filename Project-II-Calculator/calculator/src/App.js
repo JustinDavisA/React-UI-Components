@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+
 const App = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <CalculatorDisplay />
     </div>
   );
 };
